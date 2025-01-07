@@ -24,6 +24,21 @@ namespace csharpStopWatch {
       Menu();
     }
 
+    static void PreStart(int time) {
+      Console.Clear();
+
+      Console.WriteLine("Ready");
+      Thread.Sleep(1000);
+
+      Console.WriteLine("Set");
+      Thread.Sleep(1000);
+
+      Console.WriteLine("Start");
+      Thread.Sleep(1000);
+
+      Start(time);
+    }
+
     static void Menu() {
       Console.Clear();
       Console.WriteLine("Would you like the count to be done in minutes or seconds? Base your choice on the example below:");
@@ -33,7 +48,7 @@ namespace csharpStopWatch {
 
       Console.WriteLine("----------/--------/--------");
 
-      Console.WriteLine("Select one of the options above: ");
+      Console.WriteLine("Input a value similar to one of the examples above: ");
       string data = Console.ReadLine().ToLower();
       char type = char.Parse(data.Substring(data.Length - 1, 1));
       int time = int.Parse(data.Substring(0, data.Length - 1));
@@ -43,7 +58,7 @@ namespace csharpStopWatch {
       if (type == 'm') timeTypeMultiplier = 60;
       if (time == 0) System.Environment.Exit(0);
 
-      Start(time * timeTypeMultiplier);
+      PreStart(time * timeTypeMultiplier);
     }
   }
 }
