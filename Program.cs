@@ -19,7 +19,7 @@ namespace csharpStopWatch {
       }
 
       Console.Clear();
-      Console.WriteLine("Count finished. Returning to menu");
+      Console.WriteLine("Count finished! Returning to menu.");
       Thread.Sleep(2500);
       Menu();
     }
@@ -39,6 +39,23 @@ namespace csharpStopWatch {
       Start(time);
     }
 
+    static void ExitApp() {
+      Console.WriteLine("");
+      Console.Clear();
+      Console.WriteLine("Are you sure you want to exit this app?");
+      Console.WriteLine("");
+      Console.WriteLine("1 -> Yes");
+      Console.WriteLine("2 -> No, go back");
+
+      Console.WriteLine("----------/--------/--------");
+
+      Console.WriteLine("Select one of the options above: ");
+      short exitResult = short.Parse(Console.ReadLine());
+
+      if (exitResult == 1) System.Environment.Exit(0);
+      else Menu();
+    }
+
     static void Menu() {
       Console.Clear();
       Console.WriteLine("Would you like the count to be done in minutes or seconds? Base your choice on the example below:");
@@ -56,7 +73,7 @@ namespace csharpStopWatch {
       int timeTypeMultiplier = 1;
 
       if (type == 'm') timeTypeMultiplier = 60;
-      if (time == 0) System.Environment.Exit(0);
+      if (time == 0) ExitApp();
 
       PreStart(time * timeTypeMultiplier);
     }
