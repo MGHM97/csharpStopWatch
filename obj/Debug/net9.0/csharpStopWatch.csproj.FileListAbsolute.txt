@@ -12,3 +12,4 @@ C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\refint\csharpStopWatch.d
 C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.pdb
 C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.genruntimeconfig.cache
 C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\ref\csharpStopWatch.dll
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.sourcelink.json
