@@ -1,0 +1,14 @@
+C:\dev\csharpStopWatch\csharpStopWatch\bin\Debug\net9.0\csharpStopWatch.exe
+C:\dev\csharpStopWatch\csharpStopWatch\bin\Debug\net9.0\csharpStopWatch.deps.json
+C:\dev\csharpStopWatch\csharpStopWatch\bin\Debug\net9.0\csharpStopWatch.runtimeconfig.json
+C:\dev\csharpStopWatch\csharpStopWatch\bin\Debug\net9.0\csharpStopWatch.dll
+C:\dev\csharpStopWatch\csharpStopWatch\bin\Debug\net9.0\csharpStopWatch.pdb
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.AssemblyInfoInputs.cache
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.AssemblyInfo.cs
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.csproj.CoreCompileInputs.cache
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.dll
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\refint\csharpStopWatch.dll
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.pdb
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\csharpStopWatch.genruntimeconfig.cache
+C:\dev\csharpStopWatch\csharpStopWatch\obj\Debug\net9.0\ref\csharpStopWatch.dll
